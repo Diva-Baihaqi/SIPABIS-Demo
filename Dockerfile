@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # ==============================================================================
 # Stage 2: Build Frontend Assets (Tailwind CSS + Alpine.js via Vite)
 # ==============================================================================
-FROM node:22-alpine AS assets
+FROM node:26-alpine AS assets
 
 WORKDIR /app
 
