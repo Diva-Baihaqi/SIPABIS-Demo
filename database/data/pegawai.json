@@ -1,0 +1,152 @@
+[
+  {
+    "nip": "197801152002121001",
+    "name": "Drs. Hendra Wijaya, M.Si.",
+    "email": "hendra.wijaya@demo-sipabis.test",
+    "jabatan": "Kepala BPS Kabupaten Cirebon (Demo)",
+    "golongan": "IV/b",
+    "status_pegawai": "PNS",
+    "role": "pimpinan",
+    "kode_ruangan": "KPL"
+  },
+  {
+    "nip": "198003202005012002",
+    "name": "Rina Kusuma Wardani, S.E., M.M.",
+    "email": "rina.kusuma@demo-sipabis.test",
+    "jabatan": "Kepala Subbagian Umum",
+    "golongan": "IV/a",
+    "status_pegawai": "PNS",
+    "role": "admin",
+    "kode_ruangan": "TU"
+  },
+  {
+    "nip": "198705142010011003",
+    "name": "Bagus Prasetyo, S.E.",
+    "email": "bagus.prasetyo@demo-sipabis.test",
+    "jabatan": "Pengelola Persediaan Barang Pakai Habis",
+    "golongan": "III/c",
+    "status_pegawai": "PNS",
+    "role": "admin",
+    "kode_ruangan": "TU"
+  },
+  {
+    "nip": "198204102006042001",
+    "name": "Dewi Lestari, S.ST., M.Si.",
+    "email": "dewi.lestari@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Madya",
+    "golongan": "IV/a",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "SOS"
+  },
+  {
+    "nip": "198306122008011002",
+    "name": "Agus Setiawan, S.ST.",
+    "email": "agus.setiawan@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Muda",
+    "golongan": "III/d",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "PROD"
+  },
+  {
+    "nip": "198508192009121003",
+    "name": "Fajar Nugroho, S.Si.",
+    "email": "fajar.nugroho@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Muda",
+    "golongan": "III/c",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "DIST"
+  },
+  {
+    "nip": "197909252003122001",
+    "name": "Ratna Sari, S.ST.",
+    "email": "ratna.sari@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Muda",
+    "golongan": "III/d",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "NERA"
+  },
+  {
+    "nip": "197711042001121002",
+    "name": "Bambang Hermanto, S.ST., M.Si.",
+    "email": "bambang.hermanto@demo-sipabis.test",
+    "jabatan": "Pranata Komputer Ahli Madya",
+    "golongan": "IV/a",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "IPDS"
+  },
+  {
+    "nip": "199205122020011001",
+    "name": "Raka Pratama, S.Tr.Stat.",
+    "email": "raka.pratama@demo-sipabis.test",
+    "jabatan": "Pranata Komputer Ahli Pertama",
+    "golongan": "III/a",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "IPDS"
+  },
+  {
+    "nip": "199002142014031002",
+    "name": "Dimas Pratama, S.M.",
+    "email": "dimas.pratama@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Pertama",
+    "golongan": "III/b",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "SOS"
+  },
+  {
+    "nip": "199407222022032004",
+    "name": "Nadia Putri Anggraini, S.Tr.Stat.",
+    "email": "nadia.putri@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Pertama",
+    "golongan": "III/a",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "PROD"
+  },
+  {
+    "nip": "198911082012121005",
+    "name": "Arif Rahman Hakim, A.Md.",
+    "email": "arif.rahman@demo-sipabis.test",
+    "jabatan": "Statistisi Pelaksana Lanjutan",
+    "golongan": "II/d",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "DIST"
+  },
+  {
+    "nip": "199603182023012006",
+    "name": "Siti Nurhaliza, S.E.",
+    "email": "siti.nurhaliza@demo-sipabis.test",
+    "jabatan": "Analis Pengelolaan Keuangan APBN",
+    "golongan": "III/a",
+    "status_pegawai": "PPPK",
+    "role": "pegawai",
+    "kode_ruangan": "TU"
+  },
+  {
+    "nip": "199309052019021007",
+    "name": "Teguh Santoso, S.Kom.",
+    "email": "teguh.santoso@demo-sipabis.test",
+    "jabatan": "Pranata Komputer Ahli Pertama",
+    "golongan": "III/b",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "IPDS"
+  },
+  {
+    "nip": "199106172016022008",
+    "name": "Maya Indah Sari, S.Si.",
+    "email": "maya.indah@demo-sipabis.test",
+    "jabatan": "Statistisi Ahli Pertama",
+    "golongan": "III/b",
+    "status_pegawai": "PNS",
+    "role": "pegawai",
+    "kode_ruangan": "NERA"
+  }
+]

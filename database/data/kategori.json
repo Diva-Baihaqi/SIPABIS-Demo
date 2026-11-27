@@ -1,0 +1,42 @@
+[
+  {
+    "kode_kategori": "ATK",
+    "nama_kategori": "Alat Tulis Kantor",
+    "deskripsi": "Pena, pensil, spidol, penghapus, penggaris, dan alat tulis kantor harian"
+  },
+  {
+    "kode_kategori": "KERTAS",
+    "nama_kategori": "Kertas & Penggandaan",
+    "deskripsi": "Kertas HVS, folio, continuous form, karton, dan media cetak"
+  },
+  {
+    "kode_kategori": "TINTA",
+    "nama_kategori": "Tinta & Toner Printer",
+    "deskripsi": "Cartridge tinta, toner laserjet, dan pita printer"
+  },
+  {
+    "kode_kategori": "ARSIP",
+    "nama_kategori": "Buku, Map & Pengarsipan",
+    "deskripsi": "Buku agenda, map ordner, binder, snelhechter, dan amplop"
+  },
+  {
+    "kode_kategori": "SURVEI",
+    "nama_kategori": "Perlengkapan Sensus & Survei",
+    "deskripsi": "Kuesioner sensus, clipboard, tas lapangan, rompi, dan atribut mitra statistik"
+  },
+  {
+    "kode_kategori": "KOMPUTER",
+    "nama_kategori": "Perlengkapan IT & Komputer",
+    "deskripsi": "Flashdisk, mouse, keyboard, kabel data, baterai, dan aksesoris IT"
+  },
+  {
+    "kode_kategori": "KEBERSIHAN",
+    "nama_kategori": "Kebersihan & Kesehatan",
+    "deskripsi": "Tisu, hand sanitizer, sabun, masker, dan pembersih ruangan"
+  },
+  {
+    "kode_kategori": "UMUM",
+    "nama_kategori": "Barang Persediaan Umum",
+    "deskripsi": "Perlengkapan kantor pendukung dan barang persediaan pakai habis lainnya"
+  }
+]

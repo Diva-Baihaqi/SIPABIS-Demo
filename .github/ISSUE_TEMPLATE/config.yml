@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Buku Panduan Pengguna SIPABIS
+    url: https://github.com/Diva-Baihaqi/SIPABIS-Demo/blob/main/README.md
+    about: Baca ringkasan fitur, hak akses peran, dan panduan instalasi sebelum membuka isu baru.
+  - name: Pelaporan Celah Keamanan
+    url: https://github.com/Diva-Baihaqi/SIPABIS-Demo/blob/main/.github/SECURITY.md
+    about: Gunakan alur pelaporan privat jika berkaitan dengan kerentanan keamanan atau kebocoran data.

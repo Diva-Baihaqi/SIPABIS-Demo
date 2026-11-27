@@ -1,0 +1,68 @@
+name: Laporan Bug (Bug Report)
+description: Laporkan kendala teknis, galat sistem, atau perilaku yang tidak sesuai harapan pada SIPABIS.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah melaporkan kendala di **SIPABIS**. Lengkapi detail di bawah ini agar tim dapat mereproduksi dan memperbaikinya dengan cepat.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Peran Pengguna Terkait
+      options:
+        - Pegawai
+        - Pimpinan
+        - Admin (Subbagian Umum)
+        - Pengunjung Publik (Tanpa Login)
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Modul Aplikasi
+      options:
+        - Beranda / Katalog Publik
+        - Permintaan ATK & Formulir PSD-133
+        - Verifikasi & Serah Terima Admin
+        - Katalog Persediaan & Barang Masuk
+        - Kartu Kendali & Ekspor (PDF/Excel/Word)
+        - Stock Opname & BASO
+        - Manajemen Pengguna / Profil Saya
+        - Asisten AI & Manajemen AI
+        - Buku Panduan Pengguna
+        - Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi Kendala
+      description: Jelaskan masalah yang terjadi secara jelas dan ringkas.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah Reproduksi
+      description: Tuliskan urutan langkah untuk memicu kendala tersebut.
+      value: |
+        1. Login sebagai ...
+        2. Buka menu ...
+        3. Klik ...
+        4. Terjadi galat ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Perilaku yang Diharapkan
+      description: Apa yang seharusnya terjadi?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Tangkapan Layar / Pesan Galat (Opsional)
+      description: Tempel potongan pesan error Laravel/browser (pastikan tidak menyertakan kredensial `.env` atau API key).

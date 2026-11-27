@@ -1,0 +1,44 @@
+[
+  {
+    "kode_ruangan": "KPL",
+    "nama_ruangan": "Pimpinan / Kepala BPS",
+    "penanggung_jawab": "Drs. Hendra Wijaya, M.Si.",
+    "nip_penanggung_jawab": "197801152002121001"
+  },
+  {
+    "kode_ruangan": "TU",
+    "nama_ruangan": "Subbagian Umum",
+    "penanggung_jawab": "Rina Kusuma Wardani, S.E., M.M.",
+    "nip_penanggung_jawab": "198003202005012002"
+  },
+  {
+    "kode_ruangan": "SOS",
+    "nama_ruangan": "Fungsi Statistik Sosial",
+    "penanggung_jawab": "Dewi Lestari, S.ST., M.Si.",
+    "nip_penanggung_jawab": "198204102006042001"
+  },
+  {
+    "kode_ruangan": "PROD",
+    "nama_ruangan": "Fungsi Statistik Produksi",
+    "penanggung_jawab": "Agus Setiawan, S.ST.",
+    "nip_penanggung_jawab": "198306122008011002"
+  },
+  {
+    "kode_ruangan": "DIST",
+    "nama_ruangan": "Fungsi Statistik Distribusi",
+    "penanggung_jawab": "Fajar Nugroho, S.Si.",
+    "nip_penanggung_jawab": "198508192009121003"
+  },
+  {
+    "kode_ruangan": "NERA",
+    "nama_ruangan": "Fungsi Neraca Wilayah dan Analisis Statistik",
+    "penanggung_jawab": "Ratna Sari, S.ST.",
+    "nip_penanggung_jawab": "197909252003122001"
+  },
+  {
+    "kode_ruangan": "IPDS",
+    "nama_ruangan": "Fungsi Integrasi Pengolahan dan Diseminasi Statistik",
+    "penanggung_jawab": "Bambang Hermanto, S.ST., M.Si.",
+    "nip_penanggung_jawab": "197711042001121002"
+  }
+]

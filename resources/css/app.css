@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    [x-cloak] {
+        display: none !important;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply bg-white text-slate-800 antialiased font-sans selection:bg-brand-lime selection:text-slate-950;
+    }
+}
+
+@layer utilities {
+    /* Interactive Card Hover Depth */
+    .card-interactive {
+        transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-interactive:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px -12px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(8, 145, 178, 0.15);
+    }
+
+    /* Glowing border gradient on hover */
+    .border-glow-hover {
+        position: relative;
+        transition: all 0.3s ease;
+    }
+    .border-glow-hover::after {
+        content: '';
+        position: absolute;
+        inset: -1px;
+        border-radius: inherit;
+        background: linear-gradient(135deg, rgba(8, 145, 178, 0.5), rgba(203, 248, 62, 0.6));
+        opacity: 0;
+        z-index: -1;
+        transition: opacity 0.35s ease;
+    }
+    .border-glow-hover:hover::after {
+        opacity: 1;
+    }
+
+    /* Animated Link Underline */
+    .nav-link-animated {
+        position: relative;
+    }
+    .nav-link-animated::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: #cbf83e;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        transform: translateX(-50%);
+        border-radius: 9999px;
+    }
+    .nav-link-animated:hover::after {
+        width: 100%;
+    }
+}
+
+/* Custom Print Rules for Official BPS Documents */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    body {
+        background-color: white !important;
+        color: black !important;
+        font-size: 11pt !important;
+    }
+
+    .print-only {
+        display: block !important;
+    }
+
+    @page {
+        margin: 1.5cm;
+        size: auto;
+    }
+}

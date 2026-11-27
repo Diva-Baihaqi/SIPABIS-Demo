@@ -1,0 +1,39 @@
+name: Usulan Fitur (Feature Request)
+description: Ajukan ide peningkatan atau fitur baru untuk modul persediaan SIPABIS BPS Kabupaten Cirebon.
+title: "[Feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Punya ide untuk meningkatkan kinerja atau kemudahan penggunaan **SIPABIS**? Sampaikan rancangan singkatnya di sini.
+  - type: dropdown
+    id: target_role
+    attributes:
+      label: Ditujukan untuk Peran
+      options:
+        - Semua Pengguna
+        - Pegawai
+        - Pimpinan
+        - Admin (Subbagian Umum)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah atau Kebutuhan yang Ingin Diselesaikan
+      description: Jelaskan kendala operasional saat ini yang memicu usulan fitur ini.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solusi yang Diusulkan
+      description: Uraikan alur fitur, tombol, laporan, atau perilaku yang Anda harapkan.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Konteks Tambahan / Referensi Formulir BPS (Opsional)
+      description: Sertakan acuan dokumen standar BPS, contoh tata letak, atau pertimbangan teknis lain.
